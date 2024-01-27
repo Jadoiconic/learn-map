@@ -1,6 +1,7 @@
 # learn-map
 
-![Alt text](image.png)
+![image](https://github.com/Jadoiconic/learn-map/assets/86121130/be918c76-cd20-43f7-ab23-a3a1aaf00279)
+
 
 Let’s create a map of the center of Your current geographyical location with pretty OpenStreetMap tiles. From here on, we’ll be working in JS.
 
