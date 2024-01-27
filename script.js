@@ -86,7 +86,7 @@ class App {
     const { latitude, longitude } = position.coords;
     var coords = [latitude, longitude];
 
-    this.#map = L.map("map").setView(coords, 13);
+    this.#map = L.map("map").setView(coords,16);
 
     L.tileLayer("https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
       attribution:
@@ -154,8 +154,7 @@ class App {
           className:
             inputType.value === "running" ? "running-popup" : "cycling-popup",
         })
-      )
-      .setPopupContent(
+      ).setPopupContent(
         inputType.value === "running"
           ? "🏃‍♂️  " + inputType.value
           : "🚴‍♀️ " + inputType.value
